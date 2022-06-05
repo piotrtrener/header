@@ -1,0 +1,26 @@
+$h1-color: #fff;
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Poniżej to selektor */
+header {
+
+    /* właściwość CSS */
+    background: url(../assets/img/bg_header.jpg) center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1 {
+    color: $h1-color;
+}
+
+p {
+    background-color: $h1-color;
+}
